@@ -1,0 +1,33 @@
+* {
+  font-family: "Roboto", Arial;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.App {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  }
+
+.App.light {
+  background-color: rgb(248, 248, 248);
+}
+
+.App.dark {
+  background-color: #282626;
+}
+
+.viewport {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height: 80%;
+  margin-top: 10px;
+  border: gainsboro solid 2px;
+}
+

@@ -1,0 +1,13 @@
+.container-gifs {
+  display: flex;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.gif.dark {
+  border: white 2px solid;
+}
+
+.gif {
+  border: 2px solid black;
+}
